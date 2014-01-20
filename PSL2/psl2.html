@@ -1,0 +1,95 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="format" content="complete">
+</head>
+<body>
+
+<h1>MTH 312 Problem Solving Lab 2</h1>
+
+<h2>Instructions</h2>
+
+<p>This Problem Solving Lab is a little different from the other ones you will see because it is to be done outside of class. We weren&#8217;t able to have a lab on January 20 because of the MLK Day recess, and this lab assignment will give you a chance to practice and get feedback prior to your first Assessment, which is coming as a take-home assignment on January 29. </p>
+
+<p>You may work with up to two other people on this assignment because this is technically a Lab, and <a href="http://teaching.proftalbert.com/mth312w14/syllabus/">according to the syllabus</a> you can work in groups on those. However, for this one time, I recommend you try working on this without collaboration, to build your individual skills prior to your Assessment. If you do choose to work with other people, please do the following: </p>
+
+<ul>
+<li>Submit only one writeup for your group.</li>
+<li>Put the names and email addresses of all contributors in the writeup.</li>
+<li>Do not communicate between different groups.</li>
+</ul>
+
+<p>Please submit your work electronically by writing it up in either a word processing document, LaTeX, or in a <em>Mathematica</em> notebook (your choice) that has been converted to a PDF. No handwritten work will be accepted, including electronic scans of handwritten work. Submit your work by attaching the file containing the writeup to an email. Other file formats besides PDF will not be accepted. </p>
+
+<ul>
+<li>The process of converting a MS Word file to PDF is different for different versions of Word. Try going to the File menu and looking for <strong>Export</strong>, or <strong>Save As</strong> and then select PDF.</li>
+<li>To export a Mathematica notebook as a PDF, click on <strong>File</strong> then <strong>Save As&#8230;</strong> and then select PDF from the list. Do NOT select <strong>CDF Export</strong> because a &#8220;CDF&#8221; something totally different than a PDF.</li>
+</ul>
+
+<p>Please give your file a title using the following format: </p>
+
+<p><code>[List of last names] PSL 2.pdf</code></p>
+
+<p>The <code>.pdf</code> file extension will be added automatically. For example, if Alice Brown and Bob Smith collaborate on this work and write it up in a Mathematica notebook, they would first convert it to a PDF and then title it <code>Brown Smith PSL 2.pdf</code> and then send it in. </p>
+
+<p>This assignment is due by <strong>class time on Monday, January 27</strong>. </p>
+
+<h2>Problems</h2>
+
+<ol>
+<li>Take your date of birth and convert it to a long integer as follows. First convert your birth month to a number 1&#8211;12 (January = 1, February = 2, etc.). Then put the month, day, and year of your birth together into one long integer. Let B represent the result. For example, my oldest daughter was born on January 12, 2004, so for her, B = 1122004. With that value of B, compute the following and state the result in your writeup:</li>
+</ol>
+
+<p>(a) B mod 8<br>
+(b) B<sup>4</sup> mod 8 (Maybe <em>Mathematica</em> would be a good idea. How does <em>Mathematica</em> reduce a number modulo another, anyway?)<br>
+(c) B<sup>10</sup> mod 11 (Seriously, <em>Mathematica</em> would be a very good idea.)<br>
+(d) B<sup>16</sup> mod 17 (Hello? Are you using <em>Mathematica</em> yet?) </p>
+
+<p>What did you notice about the third and fourth computations above? Does this always happen when the modulus (the number we &#8220;mod out by&#8221;) is a <a href="http://www.mathsisfun.com/definitions/prime-number.html">prime number</a> and the exponent is one less than the modulus? Investigate and come up with further evidence either for or against this possibility. </p>
+
+<p>2.At <a href="https://github.com/RobertTalbert/mth312/tree/master/PSL2">this website</a> you will find four files, each of which contains a different ciphertext. Each ciphertext was created using a shift cipher and a different key, but the key for each text is unknown. Please choose one according to the first letter of your last name: </p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Last name begins with:</th>
+	<th style="text-align:left;">Please use:</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">A&#8211;F</td>
+	<td style="text-align:left;">Ciphertext 1</td>
+</tr>
+<tr>
+	<td style="text-align:center;">G&#8211;L</td>
+	<td style="text-align:left;">Ciphertext 2</td>
+</tr>
+<tr>
+	<td style="text-align:center;">M&#8211;R</td>
+	<td style="text-align:left;">Ciphertext 3</td>
+</tr>
+<tr>
+	<td style="text-align:center;">S&#8211;Z</td>
+	<td style="text-align:left;">Ciphertext 4</td>
+</tr>
+</tbody>
+</table>
+
+<p>Each ciphertext appears in its own plain text file, which you can open from the web site. </p>
+
+<p>(a) Make a table of frequencies for each letter in your ciphertext. That is, if the letter &#8220;A&#8221; appears 4 times, your table should show a frequency of 4 next to &#8220;A&#8221;. Your table should consist of 26 rows (one for each letter) and then a number showing how many times that letter appeared in the ciphertext. </p>
+
+<p>(b) Now compare your table to <a href="http://www.math.cornell.edu/~mec/2003-2004/cryptography/subs/frequencies.html">this table of frequencies of letters in English</a>. For example, this table shows that the letter &#8220;E&#8221; is the most commonly-occurring letter in the English alphabet, appearing roughly 12.02% of the time in a random sample of 40,000 words. Based on your table and this table, make a guess as to what you believe the shift key was for the shift cipher used to encrypt your ciphertext. Include a brief, 2&#8211;3 sentence explanation of your reasoning. </p>
+
+<p>(c) Find the plaintext that corresponded to your ciphertext. When done, write out the full plaintext, a specific and detailed explanation for how you got the plaintext, and a sentence or two about whether the actual key was the key that you guessed in part (b). </p>
+
+</body>
+</html>
