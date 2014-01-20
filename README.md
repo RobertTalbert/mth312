@@ -1,0 +1,1 @@
+Welcome to the repository for MTH 312, Cryptography and Privacy at [Grand Valley State University](http://gvsu.edu), Winter 2014. 
