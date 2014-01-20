@@ -26,10 +26,11 @@ This assignment is due by **class time on Monday, January 27**.
 ##Problems 
 
 1. Take your date of birth and convert it to a long integer as follows. First convert your birth month to a number 1--12 (January = 1, February = 2, etc.). Then put the month, day, and year of your birth together into one long integer. Let B represent the result. For example, my oldest daughter was born on January 12, 2004, so for her, B = 1122004. With that value of B, compute the following and state the result in your writeup: 
-..1. B mod 8 
-..2. B^4 mod 8 (Maybe *Mathematica* would be a good idea. How does *Mathematica* reduce a number modulo another, anyway?)
-..3. B^10 mod 11 (Seriously, *Mathematica* would be a very good idea.) 
-..4. B^16 mod 17 (Hello? Are you using *Mathematica* yet?)
+
+(a) B mod 8 
+(b) B^4 mod 8 (Maybe *Mathematica* would be a good idea. How does *Mathematica* reduce a number modulo another, anyway?)
+(c) B^10 mod 11 (Seriously, *Mathematica* would be a very good idea.) 
+(d) B^16 mod 17 (Hello? Are you using *Mathematica* yet?)
 
 What did you notice about the third and fourth computations above? Does this always happen when the modulus (the number we "mod out by") is a [prime number](http://www.mathsisfun.com/definitions/prime-number.html) and the exponent is one less than the modulus? Investigate and come up with further evidence either for or against this possibility. 
 
