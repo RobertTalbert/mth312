@@ -72,12 +72,11 @@ And this is what gets sent to Bob:
 
 | Born in:         |  Use this ciphertext file:  |
 | ---------------- | :-------------------------  |
-| January-March    |  [A1ciphertext1.txt](https://raw.github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext1.txt)          |
-| April-June       |  [A1ciphertext2.txt](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext2.txt)          |
-| July-September   |  [A1ciphertext3.txt](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext3.txt)          |
-| October-December |  [A1ciphertext4.txt](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext4.txt)          |
+| January-March    |  [A1ciphertext1.txt](https://raw.github.com/RobertTalbert/mth312/master/Assessment1/A1ciphertext1.txt)          |
+| April-June       |  [A1ciphertext2.txt](https://raw.github.com/RobertTalbert/mth312/master/Assessment1/A1ciphertext2.txt)          |
+| July-September   |  [A1ciphertext3.txt](https://raw.github.com/RobertTalbert/mth312/master/Assessment1/A1ciphertext3.txt)          |
+| October-December |  [A1ciphertext4.txt](https://raw.github.com/RobertTalbert/mth312/master/Assessment1/A1ciphertext4.txt)          |
 
-*NOTE*: Each ciphertext appears on one long line; you may need to scroll to see it all. Click on the "Raw" button if you need to see the ciphertext with line breaks.
 
 Each ciphertext was encrypted using the Vigenere cipher and a keyword of length 3. Find the plaintext. When done, state the plaintext and give a full accounting of the specific steps you took to decrypt the message. If you cannot get all the plaintext, be sure to report any progress that you made and explain how you made it. 
 
