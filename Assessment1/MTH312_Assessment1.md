@@ -77,6 +77,8 @@ And this is what gets sent to Bob:
 | July-September   |  [A1ciphertext3.txt](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext3.txt)          |
 | October-December |  [A1ciphertext4.txt](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext4.txt)          |
 
+*NOTE*: Each ciphertext appears on one long line; you may need to scroll to see it all. Click on the "Raw" button if you need to see the ciphertext with line breaks.
+
 Each ciphertext was encrypted using the Vigenere cipher and a keyword of length 3. Find the plaintext. When done, state the plaintext and give a full accounting of the specific steps you took to decrypt the message. If you cannot get all the plaintext, be sure to report any progress that you made and explain how you made it. 
 
 The website [Text Mechanic](http://textmechanic.com/) could be helpful for doing things like counting characters, removing spaces, and so on. 
