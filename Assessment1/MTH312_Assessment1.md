@@ -72,7 +72,7 @@ And this is what gets sent to Bob:
 
 | Born in:         |  Use this ciphertext file:  |
 | ---------------- | :-------------------------  |
-| January-March    |  [A1ciphertext1.txt](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext1.txt)          |
+| January-March    |  [A1ciphertext1.txt](https://raw.github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext1.txt)          |
 | April-June       |  [A1ciphertext2.txt](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext2.txt)          |
 | July-September   |  [A1ciphertext3.txt](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext3.txt)          |
 | October-December |  [A1ciphertext4.txt](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/A1ciphertext4.txt)          |
