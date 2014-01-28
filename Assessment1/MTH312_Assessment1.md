@@ -38,7 +38,11 @@ Here's an example. Suppose Alice wants to send the message "cryptography is awes
 
 Then she puts the text in one row at a time: 
 
+![Enciphering grid](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/grid1.png)
+
 Then she reads off the text one column at a time: 
+
+![Enciphering grid](https://github.com/RobertTalbert/mth312/blob/master/Assessment1/grid2.png)
 
 And this is what gets sent to Bob:
 
