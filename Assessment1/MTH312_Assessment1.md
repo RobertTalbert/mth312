@@ -66,7 +66,7 @@ And this is what gets sent to Bob:
 ### Problem 3: The Vigenere cipher (30 points) 
 
 1. Use the Vigenere cipher to encrypt your full name (formatted without spaces and punctuation as in Problem 1 part 2) and encrypt it using the Vigenere cipher, with keyword equal to the first two characters of your last name. (For example, I would encrypt "robertnathantalbert" with TA.) Show your work. 
-2. Suppose the ciphertext `RNJ` (six letters long) was encrypted with the Vigenere cipher using a three-letter key. Find a key that will make the `RNJ` decrypt to the first three letters of your first name. Then find a key that will make  `RNJ` decrypt to the first three letters of your last name. Explain how you got both keys. 
+2. Suppose the ciphertext `RNJ` (three letters long) was encrypted with the Vigenere cipher using a three-letter key. Find a key that will make the `RNJ` decrypt to the first three letters of your first name. Then find a key that will make  `RNJ` decrypt to the first three letters of your last name. Explain how you got both keys. 
 3. Four different sets of ciphertexts have been set up for you. Choose one of these according to the month in which you were born: 
 
 
